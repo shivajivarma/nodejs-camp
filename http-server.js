@@ -30,9 +30,9 @@ switch (extname) {
     case '.wav':
         contentType = 'audio/wav';
         break;
-	case '.zip':
-		contentType = 'application/zip';
-		break;
+    case '.zip':
+	contentType = 'application/zip';
+	break;
 }
 
 fs.readFile(filePath, function(error, content) {
